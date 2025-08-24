@@ -1,0 +1,49 @@
+# -------------------------------
+# Python / Conda / Jupyter Project
+# -------------------------------
+
+# 🗝️ Secrets
+.env
+*.env
+.env.*
+
+# 🔄 Conda environments
+*.conda
+*.yml
+*.yaml
+
+# 📓 Jupyter Notebook
+.ipynb_checkpoints/
+jupyter_notebook_config.py
+
+# 🐍 Python cache / build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+*.manifest
+*.spec
+
+# ⚙️ IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🖼️ OS-specific files
+.DS_Store
+Thumbs.db
+
+# 📦 Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.swp
